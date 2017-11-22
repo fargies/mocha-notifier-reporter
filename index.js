@@ -27,6 +27,7 @@ function notify(stats, runner) {
 		options.title = printf(NotifyReporter.title_pass, stats);
 		options.message = printf(NotifyReporter.message_pass, stats);
 	}
+        options.wait = true;
 
 	notifier.notify(options);
 }
