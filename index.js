@@ -3,7 +3,7 @@
 var util = require('util');
 var path = require('path');
 var printf = require('printf');
-var notifier = require('node-notifier')();
+var notifier = require('node-notifier');
 
 var Mocha = require('mocha');
 var Base = Mocha.reporters.Base;
